@@ -1,0 +1,62 @@
+
+REGREAS DE VARIÁVEIS EM PHP5
+
+<?php
+
+// Estilo Caml Caps
+$nomeCliente;  
+
+//Estilo com under_line
+$nome_cliente = ''; 
+
+//Constante
+define ('numero_copias', 10); 
+
+//global
+global $_CODIGO_CLIENTE 
+
+//Strings
+$nome_completo = 'Fulano de cliclano';
+$idade = "30";
+
+//COMENTARIO LINHA UNICA
+
+
+/*
+DOCUMENTACAO DO SISTEMA
+
+BIBLIOTECAS
+
+SERVIÇOS
+
+*/
+
+--------------------------------------------------------------------------
+
+trabalhando com Strings
+
+	strlen exibe o tamanho da string
+
+<?php
+$str = 'Ordem e Progresso';
+echo strlen($str);
+
+$str = 'imprime o valor completo da String';
+echo strlen($str);
+?>
+
+	str_replace() troca a string dentro da string
+
+$string = "idade30"
+$str=str_replace("23","50",$str);
+echo($str)
+
+
+	strpos() encontra a posição solicitada na string
+
+$str = "nome 1 nome";
+echo strpos($str,"1");
+
+
+
+-------------------------------------------------------
