@@ -1,0 +1,1 @@
+# PHP-Regras_de_vari-veis_e_Strings
